@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <title>時間表｜第一次唸金大就上手</title>
+    <link rel="Shortcut Icon" type="image/x-icon" href="media/favicon.ico" />
+    <meta charset="utf-8">
+    <!--針對手機顯示最佳化-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--匯入jQuery js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--匯入Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--匯入BootStrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        #navbar {
+            margin: 0px auto;
+            border-radius: 0px;
+        }
+
+        #bg-gradients {
+            margin: 0px auto;
+            background: #2196F3;
+            /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left top, #2196F3, #0D47A1);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(bottom right, #2196F3, #0D47A1);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(bottom right, #2196F3, #0D47A1);
+            /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to bottom right, #2196F3, #0D47A1);
+            /* Standard */
+            color: #FFFFFF;
+         }
+
+        #bg-footer {
+            background: #424242;
+            /* For browsers that do not support gradients */
+            background: -webkit-linear-gradient(left, #424242, #212121);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(right, #424242, #212121);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(right, #424242, #212121);
+            /* For Firefox 3.6 to 15 */
+            background: linear-gradient(to right, #424242, #212121);
+            /* Standard syntax (must be last) */
+            color: #FFFFFF;
+        }
+        /*引用思源黑體*/
+
+        @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+        body {
+            font-family: ‘Noto Sans TC’, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="color:#E06A0A">第一次唸金大就上手</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="links.html"><span class="glyphicon glyphicon-link"></span> 連結整理</a>
+                    </li>
+                    <li class="active">
+                        <a href="schedules.html"><span class="glyphicon glyphicon-calendar"></span> 時間表</a>
+                    </li>
+                    <li>
+                        <a href="checklist.html"><span class="glyphicon glyphicon-list"></span> 確認清單</a>
+                    </li>
+                    <li>
+                        <a href="bring.html"><span class="glyphicon glyphicon-gift"></span> 應帶物品</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><span class="glyphicon glyphicon-earphone"></span> 聯絡資訊</a>
+                    </li>
+                    <li>
+                        <a href="maps.html"><span class="glyphicon glyphicon-map-marker"></span> 學校地圖</a>
+                    </li>
+                    <li>
+                        <a href="thanks.html"><span class="glyphicon glyphicon-heart"></span> 感謝名單</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--bg-gradients-->
+    <div class="jumbotron" id="bg-gradients" style="margin-top:50px">
+        <h1 style="text-align:center">時間表</h1>
+        <p style="text-align:center">走過路過千萬不要錯過 >
+            <</p>
+    </div>
+
+    <!--want2say-->
+    <div class="container container-fluid">
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <td>日期</td>
+                            <td>時間</td>
+                            <td>事項</td>
+                            <td>地點</td>
+                            <td>備註</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>7月1日</td>
+                            <td></td>
+                            <td>畢業證書繳交截止日期</td>
+                            <td></td>
+                            <td>繁星、申請、身心障礙甄試新生</td>
+                        </tr>
+                        <tr>
+                            <td>7月29日</td>
+                            <td></td>
+                            <td>畢業證書繳交截止日期</td>
+                            <td></td>
+                            <td>四技技優甄審、四技甄選入學新生</td>
+                        </tr>
+                        <tr>
+                            <td>8月10日</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-student-affairs/accommodation-application">住宿申請書繳交截止日期</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8月13日</td>
+                            <td>14:00~17:00</td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/orientation">新生入學說明會</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8月19日</td>
+                            <td></td>
+                            <td>畢業證書繳交截止日期</td>
+                            <td></td>
+                            <td>考試分發（指考）、四技二專聯合登記分發新生及轉學生</td>
+                        </tr>
+                        <tr>
+                            <td>8月22日</td>
+                            <td>10:00</td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/student-id">公布學號</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>8月24日</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-general-affairs/tuition-fee">開放下載(列印)繳費單</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9/5 10:00~ 9/8 16:00</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/class-selection">新生初選</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">9月7日</td>
+                            <td>08:00~22:00</td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-student-affairs/acitivities-for-new-students">宿舍開館、住宿生報到</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>09:00~19:00</td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-student-affairs/pick-up">新生接機</a></td>
+                            <td>金門尚義機場</td>
+                            <td>    </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">9/8~9/9</td>
+                            <td>07:40</td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-student-affairs/acitivities-for-new-students">新生入學輔導(引導就位)</a></td>
+                            <td rowspan="2">多功能活動中心</td>
+                        </tr>
+                        <tr>
+                            <td>08:00</td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-student-affairs/acitivities-for-new-students">新生入學輔導(舉行)</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">9月10日</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-general-affairs/tuition-fee">繳學雜費截止日期</a></td>
+                            <td>總務處 出納組</td>
+                        </tr>
+                        <tr>
+                            <td>放學前</td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-student-affairs/student-loan">申請就學貸款期限(寄達日期)</a></td>
+                            <td>學務處 課外活動指導組</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">9月12日</td>
+                            <td></td>
+                            <td>開學</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-general-affairs/opan-bot-accounts">開立台灣銀行帳戶截止日期</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9/12~9/21</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/any-application">學分抵免申請</a></td>
+                            <td>教務處 註冊組</td>
+                        </tr>
+                        <tr>
+                            <td>9/12~9/14</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/roll-data">學籍資料記載表繳交日期</a></td>
+                            <td>教務處 註冊組</td>
+                            <td>繳予班代收齊後送教務處註冊組</td>
+                        </tr>
+                        <tr>
+                            <td>9月15日</td>
+                            <td></td>
+                            <td>中秋節(放假)</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9月16日</td>
+                            <td></td>
+                            <td>中秋節彈性放假</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">9月21日</td>
+                            <td></td>
+                            <td>防災演練</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>16:30</td>
+                            <td>幹部訓練</td>
+                            <td>圖資大樓楊肅斌演講廳</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">9月23日</td>
+                            <td></td>
+                            <td>新生學雜費減免申請截止日期</td>
+                            <td>學務處 課外活動指導組</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>獎助學金申請截止日期</td>
+                            <td>學務處 課外活動指導組</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>外籍生(含中國學生)投保</td>
+                            <td>學務處 健康中心</td>
+                            <td>需繳3000元</td>
+                        </tr>
+                        <tr>
+                            <td>9/29 0:00~ 9/29 23:59</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/class-selection">線上加退選</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9/26 10:00~ 9/30 16:00</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/class-selection">人工加退選</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9/12~10/12</td>
+                            <td></td>
+                            <td><a href="https://sites.google.com/site/nquguide/details/office-of-academic-affairs/any-application">雙重學籍申請</a></td>
+                            <td>教務處 註冊組</td>
+                            <td>原文為開學一個月內繳交</td>
+                        </tr>
+                        <tr>
+                            <td>10月15日</td>
+                            <td></td>
+                            <td>全校迎新晚會</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11月4日</td>
+                            <td></td>
+                            <td>全校運動會</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+    </div>
+
+    <!--footer-->
+    <footer class="container-fluid text-right" id="bg-footer">
+        <h6>
+            Design by 資工一 110510522 林柏億
+        </h6>
+    </footer>
+
+</body>
